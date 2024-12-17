@@ -13,11 +13,22 @@ class linear_search:
             if arr[i] == number:
                 return print(True)
         print(False)
+    
+    def contagem_ocorrencias (arr, number):
+
+        c = 0
+
+        for i in arr:
+
+            if number == i:
+                c = c + 1
+            
+        print(c)
 
 
 
-arr = [1,2,3,4]
+arr = [1,2,3,4,3]
 
 number = 3
 
-linear_search.busca_linear_invertida(arr,number)
+linear_search.contagem_ocorrencias(arr,number)
