@@ -1,4 +1,4 @@
-def busca(arr, target):
+def search(arr, target):
 
     index = 0
 
@@ -19,11 +19,11 @@ def busca(arr, target):
 
 arr = [1,2,3,4,5]
 
-target = 5
+target = 10
 
-result = busca(arr, target)
+result = search(arr, target)
 
 if result == -1:
     print("Númeor não encontrado")
 else:
-    print(f"Número encontrado {result}")
+    print(f"Número encontrado no índice {result}")
