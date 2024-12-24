@@ -1,21 +1,16 @@
 def select_sort (arr):
-
     size = len(arr) 
 
     for i in range(size):
-
         index = i
 
         for j in range(i + 1, size):
-
             if arr[j] < arr[index]:
-
                 index = j
 
         arr[i], arr[index] = arr[index], arr[i]
 
 def print_array(arr):
-
     for i in arr:
         print(i, end=" ")
     print()
