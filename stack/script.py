@@ -11,8 +11,6 @@ def stack(arr, item):
 
     print(f"Array with remove the end element? {arr}", end="\n")
 
-
-
 arr = [1,2,3,4]
 
 item = 5
