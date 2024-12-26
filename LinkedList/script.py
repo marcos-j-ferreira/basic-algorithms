@@ -22,11 +22,19 @@ class LinkedList:
             print(atual.data, end=" -> ")
             atual = atual.next
         print(None)
+    
+    def remove_first_node(self):
+        if self.head is None:
+            return 
+        
+        self.head = self.head.next
 
 lista = LinkedList()
 
 lista.insertAtBegin(10)
 lista.insertAtBegin(20)
 lista.insertAtBegin(30)
+
+lista.remove_first_node()
 
 lista.show()
