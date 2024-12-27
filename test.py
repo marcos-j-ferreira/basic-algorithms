@@ -49,3 +49,4 @@ lista.remove()
 
 lista.show()
 
+print("TESTE")
